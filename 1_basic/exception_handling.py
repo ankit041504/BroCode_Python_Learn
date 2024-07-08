@@ -6,7 +6,7 @@ try:
     denominator = int(input("Enter a number divide eeeeeeby: "));
 except ZeroDivisionError as e:
     print(e);
-    print("You cannot divide by zero! idiot");
+    print("You cannot divide by zero!");
 except ValueError as e:
     print(e);
     print("Enter only numbers please");
@@ -16,5 +16,5 @@ except Exception as e:
 else:
     result = numerator / denominator;
     print(result)
-finally:
-    print("this will always execute");
+# finally:
+#     print("this will always execute");
