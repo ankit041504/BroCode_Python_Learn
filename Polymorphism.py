@@ -22,7 +22,7 @@ class Rectangle(Shape): #inherit
         return self.length * self.width
 
 
-class Circle(Shape):
+class Circle(Shape): #inherit
     def __init__(self, radius):
         self.radius = radius
 
