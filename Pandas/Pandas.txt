@@ -1,0 +1,20 @@
+Importing & Installation of Pandas Module
+
+# pip install pandas
+# import pandas as pd
+
+Pandas DataFrame
+
+# Dataframe is an object that stores data as rows and columns.
+
+# You can think of it as a spreadsheet or an SQL table.
+
+# You can manually create a Dataframe or fill it with data from a CSV, an Excel spreadsheet, or SQL.
+
+# Rows and columns are present in DataFrames. Each column is identified by a string name. Each row has a 
+unique integer index. Strings, ints, floats, tuples, and other data types can be stored in DataFrames.
+
+
+
+
+
